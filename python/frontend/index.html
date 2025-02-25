@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>ניהול AWS - EC2</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🔹 ניהול AWS EC2 🔹</h1>
+
+    <h2>📌 יצירת מכונה חדשה</h2>
+    <button onclick="createInstance()">🚀 צור EC2</button>
+
+    <h2>📌 שליטה ב-EC2</h2>
+    <input type="text" id="instance-id" placeholder="הכנס Instance ID">
+    <button onclick="startInstance()">✅ הפעל</button>
+    <button onclick="stopInstance()">🛑 כבה</button>
+    <button onclick="deleteInstance()">❌ מחק</button>
+
+    <h2>📌 רשימת השרתים שלך</h2>
+    <button onclick="listInstances()">📋 טען רשימה</button>
+    <table id="instances-table">
+        <thead>
+            <tr>
+                <th>Instance ID</th>
+                <th>שם</th>
+                <th>סוג</th>
+                <th>מצב</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>

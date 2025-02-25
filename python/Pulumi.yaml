@@ -1,0 +1,11 @@
+name: python_poject
+description: connnect aws to
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python

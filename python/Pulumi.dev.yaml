@@ -1,0 +1,6 @@
+encryptionsalt: v1:9s5Da/cwngQ=:v1:NLocTtGLIG9ttl3k:BnLHsBm7S2owC/ofMMq7PIAtQETQ0A==
+config:
+  aws:region: us-east-1
+  aws-cli:instance_name: elatvilkom
+  aws-cli:size_type: t4g.nano
+  aws-cli:ami_types: Ubuntu

@@ -30,7 +30,7 @@ This Python-based CLI tool automates the provisioning and management of AWS reso
 ### Setup
 ```sh
 # Clone the repository
-git clone [<repository-url>](https://github.com/elayvilkom/PytonProject.git)
+git clone https://github.com/elayvilkom/PytonProject.git
 cd PytonProject
 
 # Install dependencies
